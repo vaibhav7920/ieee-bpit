@@ -1,0 +1,276 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="keywords" content="">
+    <title>IEEE-BPIT</title>
+    <link rel="icon" href="images/logo only.jpg" type="image/icon type">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://kit.fontawesome.com/61cb810c3e.js"></script>
+</head>
+
+<body>
+    <div class="loader">
+        <img src="images/logo.png" alt="Loading...">
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html"><img src="images/logo.jpg" width="200px" height="40px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav justify-content-around">
+                    <a class="nav-item nav-link " href="team.html">TEAM</a>
+                    <a class="nav-item nav-link " href="#tracks">EVENTS</a>
+                    <a class="nav-item nav-link " href="gallery.html">GALLERY</a>
+                    <a class="nav-item nav-link active" href="register.html">REGISTRATION</a>
+                    <a class="nav-item nav-link red" href="week.html">IEEE WEEK</a>
+                    <a class="nav-item nav-link " href="#speakers">SPONSORS</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5 text-center h1 py-3" id="mssg">
+        Entry successfull
+    </div>
+    <div class="container d-flex justify-content-center">
+        <img src="images/payment.PNG" height="350px"></div>
+        <div class="container h5 text-center"> Scan the code for payment through UPI</div>
+    </div>
+    <form class="container mt-5" id="submitform">
+        <div class="form-group row">
+            <label class="col-md-2 col-form-label mt-md-5" for="event">Event</label>
+            <div class="col-md-10 mt-5">
+                <select class="form-control" id="event">
+                    <option>Poster Presentation</option>
+                    <option>Datathon</option>
+                    <option>Apti-coding Quiz</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="form-group row mt-5">
+            <label for="name1" class="col-md-2 col-form-label mt-md-5">Participant 1</label>
+            <div class="col-md-10 mt-md-5">
+                <input class="form-control" id="name1" placeholder="Name" required>
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="branch1" class="col-md-2 col-form-label">Branch</label>
+            <div class="col-md-10">
+                <input class="form-control" id="branch1" placeholder="Branch" required>
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="year1" class="col-md-2 col-form-label">Year</label>
+            <div class="col-md-10">
+                <input class="form-control" id="year1" placeholder="year" required>
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="college1" class="col-md-2 col-form-label">College</label>
+            <div class="col-md-10">
+                <input class="form-control" id="college1" placeholder="Name of College" required>
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="email1" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+                <input type="email" class="form-control" id="email1" placeholder="Email" required>
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="num1" class="col-md-2 col-form-label">Contact Number</label>
+            <div class="col-md-10">
+                <input class="form-control" id="num1" placeholder="+91000000000" required>
+            </div>
+        </div>
+
+        <div class="form-group row mt-5">
+            <label for="name2" class="col-md-2 col-form-label mt-md-5">Participant 2</label>
+            <div class="col-md-10 mt-md-5">
+                <input class="form-control" id="name2" placeholder="Name" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="branch2" class="col-md-2 col-form-label">Branch</label>
+            <div class="col-md-10">
+                <input class="form-control" id="branch2" placeholder="Branch" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="year2" class="col-md-2 col-form-label">Year</label>
+            <div class="col-md-10">
+                <input class="form-control" id="year2" placeholder="year" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="college2" class="col-md-2 col-form-label">College</label>
+            <div class="col-md-10">
+                <input class="form-control" id="college2" placeholder="Name of College" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="email2" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+                <input type="email" class="form-control" id="email2" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="num2" class="col-md-2 col-form-label">Contact Number</label>
+            <div class="col-md-10">
+                <input class="form-control" id="num2" placeholder="+91000000000">
+            </div>
+        </div>
+
+        <div class="form-group row mt-5">
+            <label for="name3" class="col-md-2 col-form-label mt-md-5">Participant 3</label>
+            <div class="col-md-10 mt-md-5">
+                <input class="form-control" id="name3" placeholder="Name" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="branch3" class="col-md-2 col-form-label">Branch</label>
+            <div class="col-md-10">
+                <input class="form-control" id="branch3" placeholder="Branch" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="year3" class="col-md-2 col-form-label">Year</label>
+            <div class="col-md-10">
+                <input class="form-control" id="year3" placeholder="year" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="college3" class="col-md-2 col-form-label">College</label>
+            <div class="col-md-10">
+                <input class="form-control" id="college3" placeholder="Name of College" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="email3" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+                <input type="email" class="form-control" id="email3" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="num3" class="col-md-2 col-form-label">Contact Number</label>
+            <div class="col-md-10">
+                <input class="form-control" id="num3" placeholder="+91000000000">
+            </div>
+        </div>
+
+
+
+        <div class="form-group row mt-5">
+            <label for="name4" class="col-md-2 col-form-label mt-md-5">Participant 4</label>
+            <div class="col-md-10 mt-md-5">
+                <input class="form-control" id="name4" placeholder="Name" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="branch4" class="col-md-2 col-form-label">Branch</label>
+            <div class="col-md-10">
+                <input class="form-control" id="branch4" placeholder="Branch" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="year4" class="col-md-2 col-form-label">Year</label>
+            <div class="col-md-10">
+                <input class="form-control" id="year4" placeholder="year" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="college4" class="col-md-2 col-form-label">College</label>
+            <div class="col-md-10">
+                <input class="form-control" id="college4" placeholder="Name of College" >
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="email4" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+                <input type="email" class="form-control" id="email4" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row mt-5">
+            <label for="num4" class="col-md-2 col-form-label">Contact Number</label>
+            <div class="col-md-10">
+                <input class="form-control" id="num4" placeholder="+91000000000">
+            </div>
+        </div>
+        <div class="form-group row pt-5 mt-5">
+            <label for="txn_id" class="col-md-2 col-form-label" >Transaction ID </label>
+            <div class="col-md-10">
+                <input class="form-control" id="txn_id" placeholder="Transaction ID "  value="0">
+            </div>
+        </div>
+     
+         <button type="submit" id="submit"
+                class="btn btn-danger mt-5">Submit</button></a>
+    </form>
+
+
+
+
+    <footer class="page-footer footer-centered text-center foot mt-5">
+        <div class="d-flex justify-content-center">
+            <div class="row container pt-5">
+                <a href="https://www.instagram.com/ieee.bpit/" target="_blank" class="heading col-4"><i
+                        class="fab fa-instagram connect"></i></a>
+                <a href="https://www.facebook.com/bpitieee16/" target="_blank" class=" heading col-4"><i
+                        class="fab fa-facebook-square connect"></i></a>
+                <a href="https://in.linkedin.com/company/ieee-bpit" target="_blank" class=" heading col-4"><i
+                        class="fab fa-linkedin connect"></i></a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+            <div class="row container">
+                <div class="col">
+                    <div class="row px-5">
+                        <div class="col-2"><i class="fas fa-envelope text-left heading connect pt-4"></i></div>
+                        <div class="col-4 heading connect text-center px-3 pt-3">ieee.bpit16@gmail.com
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row px-5">
+                        <div class="col-2"><i class="fas fa-phone-alt text-right heading connect pt-4"></i></div>
+                        <div class="col-4 heading connect text-right px-3 pt-3">9560300177
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heading py-3">© Created by Vaibhav</div>
+    </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>
